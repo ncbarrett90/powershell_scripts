@@ -17,5 +17,5 @@ Import-Module PSWindowsUpdate
 # update the computer 
 Write-Host "Updating..."
 Write-Host "The system may automatically restart to apply these updates..."
-Get-WindowsUpdate -AcceptAll -Install -AutoReboot -Force
+Get-WindowsUpdate -AcceptAll -Install 
 
